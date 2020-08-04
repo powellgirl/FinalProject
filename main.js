@@ -1,31 +1,49 @@
 import { items } from './items.js';
 
-console.log(items);
 
-function append (parent, el) {
-    return parent.appendChild(el);
-}
+const getItems = () => {
 
-function createNode(element) {
-    return document.createElement(element);
-}
+const redefineItem = (item) => {
+    return {
+        name: item.title,
+        value: item.value,
+        place_of_origin: item.nation_origin,
+        time_period: item.time_period,
+        id: item.idx
 
-let item;
+     }
+   }
+const myItemsArray = items.map(redefineItem)
+ console.log(myItemsArray);
 
-const ul = document.getElementById('items')
-document.getElementById("items").style.color = "black";
-document.getElementById("items").style.backgroundColor = "#dcebd5";
 
 
-items.map(item => {console.log(item.title)
-    let li = createNode('li'),
-    span = createNode('span'),
-    img = createNode('img');
+const cardHTML = myItemsArray.map(item => {
+    return `
+     <div class="scene">
+      <div class="card">
+      <div class="card__face card__face--front"><img id="img" src ='/atlaImg/${item.id}.png'/><div id="name">${item.name}</div></div>
+      <div class="card__face card__face--back"><div id="info"><p>Value:${item.value}, Origin:${item.place_of_origin}, Time Period:${item.time_period}</p></div></div>
+    </div>
+    `
+}).join(' ,');
 
-    img.src = item.picture;
-    span.innerHTML = `Listing- ${item.title} : ${item.value}, Time Period: ${item.time_period}, Nation Origin: ${item.nation_origin}`;
+console.log(cardHTML);
 
-    append(li,img);
-    append(li,span);
-    append(ul,li);
+const container = document.querySelector('#container');
+
+container.innerHTML=cardHTML;
+
+var cards = document.querySelectorAll('.card');
+
+
+cards.forEach (card => {
+    card.addEventListener( 'click', function() {
+        card.classList.toggle('is-flipped');
+    });
 })
+
+}
+
+getItems();
+
