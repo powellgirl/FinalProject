@@ -13,13 +13,15 @@ h1 {
 }
 
 body {
-    padding: 10px;
-    margin: 60px;
-    width: 100%; 
-    height: 100px;
+    width: 1200px;
     background-color: #b7c9b3;
     
     }
+
+#container {
+  display: flex;
+  justify-content: center;
+}
 
 .Earth {
  width: 25%;
