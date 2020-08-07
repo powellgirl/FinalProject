@@ -1,5 +1,6 @@
 import { items } from './items.js';
 
+const container = document.querySelector('#container');
 
 const getItems = () => {
 
@@ -30,7 +31,6 @@ const cardHTML = myItemsArray.map(item => {
 
 console.log(cardHTML);
 
-const container = document.querySelector('#container');
 
 container.innerHTML=cardHTML;
 
