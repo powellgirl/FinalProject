@@ -1,9 +1,14 @@
 h1 {
-    font-family: 'Laila', serif;;
+    font-family: 'Laila', serif;
     color: green;
     padding: 0px 0px 0px 10px;
 }
 
+h2{
+  font-family: 'Playfair Display', serif;
+  color: #010101;
+  padding: 0px 0px 0px 10px;
+}
 .header {
     width: 1200px; 
     height: 75px;
@@ -13,7 +18,7 @@ h1 {
 }
 
 body {
-    width: 1200px;
+    width: 100%;
     background-color: #b7c9b3;
     
     }
@@ -21,6 +26,85 @@ body {
 #container {
   display: flex;
   justify-content: wrap;
+}
+
+#itemForm{
+  font-family: 'Laila', serif;
+  width:200px;
+  padding: 12px 20px;
+  margin: 8px 0;
+ 
+}
+
+#names{
+  padding: 5px 10px;
+  margin: 8px 0;
+  box-sizing: border-box;
+  border: 2px solid grey;
+  border-radius: 4px;
+  background-color: #8abaae;
+}
+
+#value{
+  padding: 5px 10px;
+  margin: 8px 0;
+  box-sizing: border-box;
+  border: 2px solid grey;
+  border-radius: 4px;
+  background-color: #8abaae;
+}
+
+#time_period{
+  padding: 5px 10px;
+  margin: 8px 0;
+  box-sizing: border-box;
+  border: 2px solid grey;
+  border-radius: 4px;
+  background-color: #8abaae;
+}
+
+#origin{
+  padding: 5px 10px;
+  margin: 8px 0;
+  box-sizing: border-box;
+  border: 2px solid grey;
+  border-radius: 4px;
+  background-color: #8abaae;
+}
+
+#button {
+  background-color: green;
+  border: none;
+  color: white;
+  padding: 8px 20px;
+  font-family:'Laila', serif;
+  border-radius: 10px;
+  margin: 10px 8px;
+}
+
+#buy{
+  background-color: green;
+  border: none;
+  color: white;
+  padding: 8px 20px;
+  font-family:'Laila', serif;
+  border-radius: 10px;
+  margin: 10px 8px;
+  display:flex;
+  justify-content: center;
+  
+}
+
+#thank_you{
+  background-color: green;
+  border: none;
+  color: white;
+  padding: 8px 20px;
+  font-family:'Laila', serif;
+  border-radius: 10px;
+  margin: 10px 8px;
+  display:flex;
+  justify-content: center;
 }
 
 .Earth {
@@ -44,7 +128,7 @@ ul {
 .scene {
     width: 200px;
     height: 260px;
-    border: 1px solid #CCC;
+    border: 3px solid black;
     margin: 40px 0;
     perspective: 600px;
   }
@@ -71,8 +155,8 @@ ul {
     text-shadow: 2px 2px 2px #000000;
     text-align: center;
     font-weight: normal;
-    font-size: 16px;
-    font-family: 'Press Start 2P';
+    font-size: 22px;
+    font-family: 'Playfair Display', serif;
     backface-visibility: hidden;
   }
   
