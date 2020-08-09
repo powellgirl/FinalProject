@@ -11,37 +11,40 @@
 <body>
   <div class="header">
     <div class ="logo">
-   <img  class = "Earth" src="https://vignette.wikia.nocookie.net/avatar/images/e/e4/Earthbending_emblem.png/revision/latest?cb=20130729200732" alt="Earth Kingdom Symbol">
+    <img  class = "Earth" src="https://vignette.wikia.nocookie.net/avatar/images/e/e4/Earthbending_emblem.png/revision/latest?cb=20130729200732" alt="Earth Kingdom Symbol">
+    </div>
+    <div class="title">
+    <h1>Ba Sing Se Thrift Store</h1>
+    </div>
   </div>
-  <div class="title">
-   <h1>Ba Sing Se Thrift Store</h1>
-  </div>
-</div>
 
 <h1>
   Click the listing to see the Details
 </h1>
 
-<div class="form-card">
-  <label for="name">Name of Item:</label><br>
-  <input type="text" id="name" name="name" required><br>
+<h2>Add your own listing</h2>
+ <div id="itemForm" class="form-card">
 
-  <label for="name">Value:</label><br>
+  <label for="name">Name of Item:</label><br>
+  <input type="text" id="names" name="name" required><br>
+
+  <label for="value">Value:</label><br>
   <input type="text" id="value" name="value" required><br>
 
-  <label for="name">Origin:</label><br>
-  <input type="text" id="origin" name="origin" required><br>
-
-  <label for="name">Time Period:</label><br>
+  <label for="time_period">Time Period:</label><br>
   <input type="text" id="time_period" name="time_period" required><br>
+
+  <label for="origin">Origin:</label><br>
+  <input type="text" id="origin" name="origin" required><br>
   
-  <input type="submit" value="Submit">
+  <input id="button" type="submit" value="Submit">
 </div>
 
  <div id="container">
   <ul id="items"></ul>
-</div>
+ </div>
 
+ 
 
 </body>
 <script type="module" src="main.js"></script>
