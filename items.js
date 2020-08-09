@@ -69,5 +69,93 @@ export const items = [
         "time_period": "113 AA",
         "idx" : "i",
         
+    },
+    {
+        "title": "Engagement Necklace",
+        "value": "5,000 coins",
+        "nation_origin": "Water Tribe",
+        "time_period": "95 AA",
+        "idx" : "j",
+       
+    },
+    {
+        "title": "Flying Bison",
+        "value": "20,000 coins",
+        "nation_origin": "Air Nomad",
+        "time_period": "100 BA",
+        "idx" : "k",
+       
+    },
+    {
+        "title": "Ba Sing Se Tea",
+        "value": "1,000 coins",
+        "nation_origin": "Earth Kingdom",
+        "time_period": "113 AA",
+        "idx" : "l",
+        
+    },
+    {
+        "title": "Engagement Necklace",
+        "value": "5,000 coins",
+        "nation_origin": "Water Tribe",
+        "time_period": "95 AA",
+        "idx" : "m",
+       
+    },
+    {
+        "title": "Fire King Crown",
+        "value": "100,000 coins",
+        "nation_origin": "Fire Nation",
+        "time_period": "10 BA",
+        "idx" : "n",
+       
+    },
+    {
+        "title": "Ba Sing Se Tea",
+        "value": "1,000 coins",
+        "nation_origin": "Earth Kingdom",
+        "time_period": "113 AA",
+        "idx" : "o",
+        
+    },
+    {
+        "title": "Engagement Necklace",
+        "value": "5,000 coins",
+        "nation_origin": "Water Tribe",
+        "time_period": "95 AA",
+        "idx" : "p",
+       
+    },
+    {
+        "title": "Fire King Crown",
+        "value": "100,000 coins",
+        "nation_origin": "Fire Nation",
+        "time_period": "10 BA",
+        "idx" : "q",
+       
+    },
+    {
+        "title": "Ba Sing Se Tea",
+        "value": "1,000 coins",
+        "nation_origin": "Earth Kingdom",
+        "time_period": "113 AA",
+        "idx" : "r",
+        
+    },
+    {
+        "title": "Engagement Necklace",
+        "value": "5,000 coins",
+        "nation_origin": "Water Tribe",
+        "time_period": "95 AA",
+        "idx" : "s",
+       
+    },
+    {
+        "title": "Fire King Crown",
+        "value": "100,000 coins",
+        "nation_origin": "Fire Nation",
+        "time_period": "10 BA",
+        "idx" : "t",
+       
     }
 ]
