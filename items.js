@@ -4,7 +4,7 @@ export const items = [
         "value": "100,000 coins",
         "nation_origin": "Air Nomad",
         "time_period": "16 BA",
-        "idx" : "a",
+        "idx" : "a"
     },    
         
     {
@@ -12,7 +12,7 @@ export const items = [
         "value": "500,000 coins",
         "nation_origin": "Air Nomad",
         "time_period": "500 BA",
-        "idx" : "b",
+        "idx" : "b"
     },
         
     {
@@ -20,7 +20,7 @@ export const items = [
         "value": "250,000 coins",
         "nation_origin": "Water Tribe",
         "time_period": "165 BA",
-        "idx" : "c",
+        "idx" : "c"
       
     },
     {
@@ -28,7 +28,7 @@ export const items = [
         "value": "10,000 coins",
         "nation_origin": "Fire Nation",
         "time_period": "92 AA",
-        "idx" : "d",
+        "idx" : "d"
        
     },
     {
@@ -36,14 +36,14 @@ export const items = [
         "value": "20,000 coins",
         "nation_origin": "Fire Nation",
         "time_period": "112 AA",
-        "idx" : "e",
+        "idx" : "e"
     },
     {
         "title": "Space Sword",
         "value": "300,000 coins",
         "nation_origin": "Earth Kingdom",
         "time_period": "113 AA",
-        "idx" : "f",
+        "idx" : "f"
         
     },
     {
@@ -51,7 +51,7 @@ export const items = [
         "value": "5,000 coins",
         "nation_origin": "Water Tribe",
         "time_period": "95 AA",
-        "idx" : "g",
+        "idx" : "g"
        
     },
     {
@@ -59,7 +59,7 @@ export const items = [
         "value": "100,000 coins",
         "nation_origin": "Fire Nation",
         "time_period": "10 BA",
-        "idx" : "h",
+        "idx" : "h"
        
     },
     {
@@ -67,95 +67,95 @@ export const items = [
         "value": "1,000 coins",
         "nation_origin": "Earth Kingdom",
         "time_period": "113 AA",
-        "idx" : "i",
+        "idx" : "i"
         
-    },
-    {
-        "title": "Engagement Necklace",
-        "value": "5,000 coins",
-        "nation_origin": "Water Tribe",
-        "time_period": "95 AA",
-        "idx" : "j",
-       
     },
     {
         "title": "Flying Bison",
         "value": "20,000 coins",
         "nation_origin": "Air Nomad",
         "time_period": "100 BA",
-        "idx" : "k",
+        "idx" : "j"
        
     },
     {
-        "title": "Ba Sing Se Tea",
+        "title": "Winged Lemur",
+        "value": "10,000 coins",
+        "nation_origin": "Air Nomad",
+        "time_period": "110 BA",
+        "idx" : "k"
+       
+    },
+    {
+        "title": "White Lotus Tile",
         "value": "1,000 coins",
-        "nation_origin": "Earth Kingdom",
-        "time_period": "113 AA",
-        "idx" : "l",
+        "nation_origin": "White Lotus Clan",
+        "time_period": "8 AA",
+        "idx" : "l"
         
     },
     {
-        "title": "Engagement Necklace",
-        "value": "5,000 coins",
-        "nation_origin": "Water Tribe",
-        "time_period": "95 AA",
-        "idx" : "m",
-       
-    },
-    {
-        "title": "Fire King Crown",
-        "value": "100,000 coins",
+        "title": "War Balloon",
+        "value": "500,000 coins",
         "nation_origin": "Fire Nation",
-        "time_period": "10 BA",
-        "idx" : "n",
+        "time_period": "13 AA",
+        "idx" : "m"
        
     },
     {
-        "title": "Ba Sing Se Tea",
-        "value": "1,000 coins",
+        "title": "The 1 Cabbage held by Cabbage guy",
+        "value": "10 coins",
         "nation_origin": "Earth Kingdom",
-        "time_period": "113 AA",
-        "idx" : "o",
+        "time_period": "12 AA",
+        "idx" : "n"
+       
+    },
+    {
+        "title": "Avatar:TLA Play",
+        "value": "1,000 coins",
+        "nation_origin": "Fire Nation",
+        "time_period": "present",
+        "idx" : "o"
         
     },
     {
-        "title": "Engagement Necklace",
-        "value": "5,000 coins",
-        "nation_origin": "Water Tribe",
-        "time_period": "95 AA",
-        "idx" : "p",
-       
-    },
-    {
-        "title": "Fire King Crown",
-        "value": "100,000 coins",
-        "nation_origin": "Fire Nation",
-        "time_period": "10 BA",
-        "idx" : "q",
-       
-    },
-    {
-        "title": "Ba Sing Se Tea",
-        "value": "1,000 coins",
+        "title": "Earth Kingdom Brawl Tickets (2)",
+        "value": "120 coins",
         "nation_origin": "Earth Kingdom",
-        "time_period": "113 AA",
-        "idx" : "r",
+        "time_period": "present",
+        "idx" : "p"
+    
+    },
+    {
+        "title": "Abstract Art by Sokka",
+        "value": "105,000 coins",
+        "nation_origin": "Water Tribe",
+        "time_period": "112 AA",
+        "idx" : "q"
+       
+    },
+    {
+        "title": "Yin Yang Koi Fish",
+        "value": "100,000,000 coins",
+        "nation_origin": "Water Tribe",
+        "time_period": "111,043 BA",
+        "idx" : "r"
         
     },
     {
-        "title": "Engagement Necklace",
-        "value": "5,000 coins",
-        "nation_origin": "Water Tribe",
-        "time_period": "95 AA",
-        "idx" : "s",
+        "title": "Fire Bending Lesson",
+        "value": "500 coins",
+        "nation_origin": "Fire Nation",
+        "time_period": "120 AA",
+        "idx" : "s"
        
     },
     {
-        "title": "Fire King Crown",
-        "value": "100,000 coins",
-        "nation_origin": "Fire Nation",
-        "time_period": "10 BA",
-        "idx" : "t",
+        "title": "Moon Flower",
+        "value": "20 coins",
+        "nation_origin": "Earth Kingdom",
+        "time_period": "112 AA",
+        "idx" : "t"
        
     }
 ]
