@@ -23,10 +23,10 @@
 </h1>
 
 <h2>Add your own listing</h2>
- <div id="itemForm" class="form-card">
+ <div id="itemForm" >
 
   <label for="name">Name of Item:</label><br>
-  <input type="text" id="names" name="name" required><br>
+  <input type="text" id="names" name="title" required><br>
 
   <label for="value">Value:</label><br>
   <input type="text" id="value" name="value" required><br>
@@ -35,18 +35,20 @@
   <input type="text" id="time_period" name="time_period" required><br>
 
   <label for="origin">Origin:</label><br>
-  <input type="text" id="origin" name="origin" required><br>
+  <input type="text" id="origin" name="nation_origin" required><br>
   
   <input id="button" type="submit" value="Submit">
 </div>
+
 
  <div id="container">
   <ul id="items"></ul>
  </div>
 
  
-
+ 
+ <script type="module" src="items.js"></script>
+ <script type="module" src="main.js"></script>
 </body>
-<script type="module" src="main.js"></script>
-<script type="module" src="items.js"></script>
+
 </html>
