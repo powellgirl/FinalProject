@@ -38,6 +38,8 @@ const cardHTML = myItemsArray.map(item => {
     `
 }).join(' ,');
 
+
+
 console.log(cardHTML);
 
 
@@ -57,13 +59,10 @@ cards.forEach (card => {
 
 getItems();
 
-const itemForm = document.querySelector('#itemForm');
-
- itemForm.addEventListener('submit', (event) => {
-     event.preventDefault();
-
+    
+function addItemCard(event) {
      const formData = new formData(itemForm);
-
+    
      //use of let
      //custom javascript object
      let itemObj = new Object();
@@ -72,26 +71,35 @@ const itemForm = document.querySelector('#itemForm');
          console.log(pair)
     //key value pairs
          itemObj[pair[0]] = pair[1]
+
+         event.preventDefault();
+
+         const parentDiv = document.createElement('div');
+         parentDiv.className('scene');
+        
+         const innerDiv = document.createElement('div');
+         innerDiv.className('card');
+        
+         const frontDiv = document.createElement('div');
+        frontDiv.className('card_face card_face--front');
+        
+         const backDiv = document.createElement('div');
+        backDiv.className('card_face card_face--back');
+        
+          
+         innerDiv.appendChild(frontDiv, backDiv);
+         parentDiv.appendChild(innerDiv);
+         
+         container.appendChild() = parentDiv;
+
+         
      }
 
 
       
-     const parentDiv = document.createElement('div');
-     parentDiv.className('scene');
-    
-     const innerDiv = document.createElement('div');
-     innerDiv.className('card');
-    
-     const frontDiv = document.createElement('div');
-     frontDiv.className('card_face card_face--front');
-    
-     const backDiv = document.createElement('div');
-     backDiv.className('card_face card_face--back');
-    
-      
-     innerDiv.appendChild(frontDiv, backDiv);
-     parentDiv.appendChild(innerDiv);
      
-     container.appendChild() = parentDiv;
      
- })
+ }
+
+ const itemForm = document.getElementById('itemForm');
+ itemForm.addEventListener('submit', addItemCard);
